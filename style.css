@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: left;
+    background-color: #2d6863;
+    color: white;
+    justify-content: right;
+}
+nav{
+    float:left;
+}
+nav ul li{
+    float:left;
+    list-style: none;
+    padding: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    
+}
+
+h1{
+    text-align: left;
+}
+h2{
+    align-items: left;
+    justify-content: left;
+    float: left;
+}
+a{
+    text-decoration: none;
+    color: white;
+    align-items: right;
+}
+main{
+    margin: 0;
+    text-align: left;
+    padding: 100px;
+
+}
+.nombre{
+    border: 0;
+}
+.email{
+    border: 0;
+}
+.contraseña{
+    border: 0;
+}
+.card  {
+    margin: 10px;
+    border: solid 1px black;
+}
+.footer p{
+    text-align: center;
+    color:white;
+    padding: 15px;
+    background-color: black ;
+}
+.inputcontainer{
+    margin: 20px;
+    border:0;
+}
+.btn-register{
+    align-items: center;
+    background-color: black;
+    color:white;
+    width: 150px;
+    height: 40px;
+    margin: 20px;
+}
