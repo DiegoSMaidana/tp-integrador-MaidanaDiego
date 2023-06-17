@@ -1,69 +1,64 @@
 <!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TP - Integrador - Programación III</title>
+    <title>clase JS Cagar tarjetas desde un formulario</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
     <header>
-    <h2>Programacion III - Cent 35</h2>  
-    <nav>
-        <ul>
-            <li><a href="">INICIO</a></li>
-            <li><a href="">CONTACTO</a></li>
-            <li><a href="">PRODUCTO</a></li>
-            <li><a href="">SERVICIOS</a></li>
-        </ul>
-    </nav>
-</header>
+        <h2>Programacion 3 - Cent 35</h2>
+        <nav>
+            <a href="">Inicio</a>
+            <a href="">Contacto</a>
+            <a href="">Producto</a>
+            <a href="">Servicios</a>
+        </nav>
+    </header>
     <main>
         <h1>Aqui puedes registrar a los usuarios</h1>
         <form class="formularioUsuarios">
             <div class="inputcontainer">
-                <label for="Ingrese su nombre">Ingrese su nombre</label>
-                <br>
-                <input type="text" placeholder="Ingrese su nombre" id="nombre" name="nombre" class="nombre">
-                <hr>
+                <label for="Ingrese su nombre">Ingrese su nombre</label><br>
+                <input type="text" placeholder="Ingrese su nombre" id="nombre" name="nombre" class="n">
+            <hr>
             </div>
             <div class="inputcontainer">
-                <label for="Ingrese su email">Ingrese su mail</label>
-                <br>
-                <input type="text" placeholder="Ingrese su email" id="email" name="email" class="email">
-                <hr>
+                <label for="Ingerese su email">Ingerese su mail</label><br>
+                <input type="text" placeholder="Ingrese su email" id="email" name="email" class="e">
+            <hr>
             </div>
-        
             <div class="inputcontainer">
-                <label for="Ingrese su contraseña">Ingrese su contraseña</label>
-                <br>
-                <input type="text" placeholder="Ingrese su contraseña" id="contrasena" name="contraseña" class="contraseña">
-                <hr>
+                <label for="Ingrese su contraseña">Ingrese su contraseña</label><br>
+                <input type="contrasena" placeholder="Ingrese su contraseña" id="contrasena" name="contrasena" class="c">
+            <hr>
             </div>
-        
             <div class="inputcontainer">
                 <!-- usamos el select para tener uno con opciones cargado -->
-                <label for="Seleccione su provincia" >Seleccione su provincia</label>
-                <br>
-                <select name="provincia" id="provincia" class="provincia">
+                <label for="Seleccione su provincia">Seleccione su provincia</label><br>
+                <select name="provincia" id="provincia">
                     <option value="Buenos Aires">Buenos Aires</option>
                     <option value="Tierra del fuego">Tierra del fuego</option>
                     <option value="Santa Cruz">Santa Cruz</option>
                     <option value="Cordoba">Cordoba</option>
                 </select>
-                <hr>
+            <hr>
             </div>
-            
-            <input type="submit" value="Registrar" class="btn-register" class="btn-registro">
+            <input type="submit" value="Registrar" class="btn-register">
         </form>
-        <div id="card">
-            <!--Tarjetas de presentación -->
+        <div id="contenedorusuarios">
         </div>
     </main>
-    <div class="footer">
-        <footer>
+    <footer>
+        <div class="footer">
             <p>Cent 35 ®Todos los derechos reservados </p>
-        </footer>
-    </div>
-<script src="./script.js"></script>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
 </body>
+
 </html>
